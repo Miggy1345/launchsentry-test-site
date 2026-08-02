@@ -1,0 +1,75 @@
+:root {
+  color: #b8b9c7;
+  background: #090a10;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.site-header,
+main,
+footer {
+  margin: auto;
+  max-width: 1080px;
+  padding: 24px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand,
+h1,
+h2,
+h3 {
+  color: #ffffff;
+}
+
+.hero {
+  align-items: center;
+  display: grid;
+  gap: 36px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 520px;
+}
+
+.hero img,
+.featured img {
+  background: #1b1d28;
+  border-radius: 16px;
+  min-height: 260px;
+  width: 100%;
+}
+
+.button,
+button {
+  background: #7868ee;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  padding: 12px 18px;
+}
+
+.newsletter,
+.featured {
+  border-top: 1px solid #242633;
+  padding: 48px 0;
+}
+
+input {
+  background: #12141d;
+  border: 1px solid #313442;
+  border-radius: 8px;
+  color: white;
+  padding: 12px;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}

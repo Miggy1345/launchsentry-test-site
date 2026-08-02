@@ -1,0 +1,26 @@
+LaunchSentry Repair Center demonstration
+========================================
+
+This website is intentionally flawed and is safe to use for local testing.
+It does not contain real credentials and is not intended for deployment.
+
+Expected automatic repair proposals:
+- Add the HTML language declaration.
+- Add responsive viewport metadata.
+- Protect the new-tab external link.
+
+Expected approval-required proposals:
+- Add a document title.
+- Add alternative text to images.
+- Add an accessible name to the email field.
+- Remove debug console statements.
+
+Expected manual findings:
+- Missing image and page assets.
+- Dynamic code execution through eval.
+- An unresolved development marker.
+- Missing dependency lockfile.
+- A legacy dependency.
+
+After scanning, open Repair center, inspect the before/after changes, approve
+the selected repairs, and download the generated repaired ZIP and manifest.

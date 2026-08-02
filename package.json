@@ -1,0 +1,9 @@
+{
+  "name": "launchsentry-repair-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally flawed test fixture for the LaunchSentry Repair Center",
+  "dependencies": {
+    "request": "2.88.2"
+  }
+}
